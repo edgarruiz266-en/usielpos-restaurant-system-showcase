@@ -1,4 +1,4 @@
-# Mapeo del flyer comercial a arquitectura tecnica
+# Mapeo arquitectura tecnica
 
 Este documento traduce las promesas comerciales del flyer a componentes tecnicos reales del sistema.
 
