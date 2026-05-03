@@ -1,0 +1,10 @@
+flowchart LR
+    Desktop[POS Desktop\nPython + PyQt5] --> API[API FastAPI\nAzure / Local]
+    Mobile[App Movil\nFlutter] --> API
+    API --> DB[(Azure SQL / SQL Server)]
+    Desktop --> Printers[Impresoras\nCocina / Barra / Cuenta]
+    Mobile --> MobilePrint[Impresion Movil\nTCP 9100]
+    API --> MP[Mercado Pago Point]
+    API --> Fiscal[CFDI / SAT]
+    API --> BOM[Inventario / BOM / Kardex]
+    API --> Audit[Auditoria / Roles / PIN]

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<style>.bg{fill:#f8fafc}.step{fill:#fff;stroke:#1d4ed8;stroke-width:2;rx:16}.stock{fill:#ecfdf5;stroke:#047857;stroke-width:2;rx:16}.warn{fill:#fff7ed;stroke:#c2410c;stroke-width:2;rx:16}.txt{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.title{font-size:30px;font-weight:700}.h{font-size:18px;font-weight:700}.p{font-size:14px}.line{stroke:#334155;stroke-width:2.4;fill:none;marker-end:url(#arrow)}</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#334155"/></marker></defs>
+<rect class="bg" width="1200" height="520"/><text class="txt title" x="60" y="55">Flujo de Inventario con Recetas/BOM</text>
+<rect class="step" x="60" y="110" width="200" height="90"/><text class="txt h" x="90" y="145">Producto enviado</text><text class="txt p" x="88" y="175">Cocina / barra</text>
+<rect class="step" x="310" y="110" width="200" height="90"/><text class="txt h" x="350" y="145">Buscar receta</text><text class="txt p" x="350" y="175">BOM + unidades</text>
+<rect class="step" x="560" y="110" width="200" height="90"/><text class="txt h" x="590" y="145">Calcular insumos</text><text class="txt p" x="590" y="175">Conversiones</text>
+<rect class="stock" x="810" y="110" width="220" height="90"/><text class="txt h" x="855" y="145">Descontar stock</text><text class="txt p" x="850" y="175">Movimiento de salida</text>
+<rect class="stock" x="810" y="280" width="220" height="90"/><text class="txt h" x="875" y="315">Kardex</text><text class="txt p" x="850" y="345">Trazabilidad por orden</text>
+<rect class="warn" x="560" y="280" width="200" height="90"/><text class="txt h" x="595" y="315">Cancelacion</text><text class="txt p" x="590" y="345">Motivo + PIN</text>
+<rect class="stock" x="310" y="280" width="200" height="90"/><text class="txt h" x="350" y="315">Reversa</text><text class="txt p" x="340" y="345">Devolver o merma</text>
+<rect class="step" x="60" y="280" width="200" height="90"/><text class="txt h" x="105" y="315">Evidencia</text><text class="txt p" x="88" y="345">Quien, cuando, motivo</text>
+<path class="line" d="M260 155 L310 155"/><path class="line" d="M510 155 L560 155"/><path class="line" d="M760 155 L810 155"/><path class="line" d="M920 200 L920 280"/><path class="line" d="M810 325 L760 325"/><path class="line" d="M560 325 L510 325"/><path class="line" d="M310 325 L260 325"/>
+</svg>

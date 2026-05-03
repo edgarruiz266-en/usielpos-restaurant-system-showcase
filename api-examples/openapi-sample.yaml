@@ -1,0 +1,47 @@
+openapi: 3.0.3
+info:
+  title: UsielPOS Public API Sample
+  version: "demo"
+  description: >
+    Ejemplo publico y simplificado de grupos de endpoints. No representa la API privada completa.
+paths:
+  /auth/login:
+    post:
+      summary: Login de usuario
+      responses:
+        "200": { description: OK }
+  /v1/mesas:
+    get:
+      summary: Listar mesas y estados
+      responses:
+        "200": { description: OK }
+  /v1/ordenes/{orden_id}/items:
+    post:
+      summary: Agregar producto a orden
+      responses:
+        "200": { description: OK }
+  /v1/ordenes/{orden_id}/enviar-pendientes:
+    post:
+      summary: Enviar pendientes a cocina/barra
+      responses:
+        "200": { description: OK }
+  /v1/cobro/{orden_id}/status:
+    get:
+      summary: Consultar estado de cobro
+      responses:
+        "200": { description: OK }
+  /v1/cobro/{orden_id}/pago:
+    post:
+      summary: Registrar pago manual
+      responses:
+        "200": { description: OK }
+  /v1/mp-point/{orden_id}/create:
+    post:
+      summary: Crear operacion Mercado Pago Point
+      responses:
+        "200": { description: OK }
+  /webhooks/mercadopago:
+    post:
+      summary: Recibir evento de Mercado Pago
+      responses:
+        "200": { description: OK }

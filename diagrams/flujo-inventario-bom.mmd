@@ -1,0 +1,14 @@
+flowchart TD
+    A[Item enviado a cocina/barra] --> B{Tiene receta BOM?}
+    B -- No --> Z[No descuenta inventario]
+    B -- Si --> C[Calcular insumos]
+    C --> D[Aplicar conversiones]
+    D --> E{Stock suficiente?}
+    E -- No --> F[Bloquear o avisar faltantes]
+    E -- Si --> G[Registrar consumo]
+    G --> H[Movimiento de salida]
+    H --> I[Kardex]
+    I --> J{Cancelacion?}
+    J -- Si --> K[Reversa controlada]
+    K --> L[Movimiento de entrada/devolucion]
+    J -- No --> M[Operacion normal]

@@ -1,0 +1,16 @@
+flowchart TD
+    A[Orden abierta] --> B[Calcular restante real]
+    B --> C{Monto valido y sin bloqueo?}
+    C -- No --> X[Mostrar mensaje limpio]
+    C -- Si --> D[Crear operacion Point]
+    D --> E[Terminal recibe cobro]
+    E --> F[Polling o webhook]
+    F --> G{Estado final?}
+    G -- No --> F
+    G -- Approved --> H[Registrar pago idempotente]
+    H --> I{Existe propina?}
+    I -- Si --> J[Registrar propina separada]
+    I -- No --> K[Actualizar estado]
+    J --> K
+    G -- Rechazado/Cancelado/Expirado --> L[Liberar o permitir reintento segun regla]
+    K --> M[Voucher / impresion / cierre manual]
