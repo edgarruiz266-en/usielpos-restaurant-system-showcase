@@ -1,10 +1,8 @@
 # Video demo
 
-Cuando tengas un video corto, agrega aqui el enlace.
 
-## Recomendacion
+## 
 
-Graba un video de 2 a 4 minutos mostrando:
 
 1. Abrir mesa.
 2. Agregar productos.
