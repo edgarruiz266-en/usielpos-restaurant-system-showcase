@@ -1,0 +1,9 @@
+flowchart TD
+    A[Producto enviado] --> B[Buscar receta]
+    B --> C[Calcular insumos]
+    C --> D[Validar stock]
+    D --> E[Descontar inventario]
+    E --> F[Registrar kárdex]
+    F --> G{Cancelación}
+    G -- Sí --> H[Reversar consumo]
+    G -- No --> I[Continuar]

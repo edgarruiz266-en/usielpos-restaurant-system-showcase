@@ -1,0 +1,9 @@
+flowchart LR
+    A[POS Desktop\nPython + PyQt5] --> C[API REST\nFastAPI]
+    B[App Móvil Meseros\nFlutter + Dart] --> C
+    D[Panel Administrativo] --> C
+    C --> E[(Azure SQL / SQL Server)]
+    C --> F[Mercado Pago Point]
+    C --> G[CFDI / SAT]
+    A --> H[Impresoras térmicas USB/TCP]
+    B --> I[Impresoras LAN ESC/POS]
