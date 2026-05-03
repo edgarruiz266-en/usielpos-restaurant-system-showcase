@@ -62,6 +62,6 @@ SQL Server / Azure SQL con tablas de operacion, auditoria, pagos, inventario, fa
 - Impresoras termicas.
 - Cajon de dinero.
 
-## Principio de diseno
+## Principio de diseño
 
 La base de datos es la fuente de verdad. Las pantallas no deben inventar estado critico. Los endpoints criticos deben calcular el estado real desde movimientos, pagos, items y configuraciones, evitando depender de valores cacheados.
