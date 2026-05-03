@@ -23,4 +23,4 @@ Este documento traduce las promesas comerciales del flyer a componentes tecnicos
 
 ## Resultado
 
-El flyer vende control, velocidad y supervision; la arquitectura lo respalda con una combinacion de desktop, movil, API, base de datos central, auditoria y modulos especializados.
+Vendeo control, velocidad y supervision; la arquitectura lo respalda con una combinacion de desktop, movil, API, base de datos central, auditoria y modulos especializados.
