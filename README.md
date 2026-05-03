@@ -14,7 +14,7 @@
 > Caso de estudio tecnico de un ecosistema POS para restaurantes construido para operacion real.  
 > Este repositorio **no contiene codigo fuente privado**. Presenta arquitectura, modulos, flujos, diagramas y evidencia visual del sistema.
 
-## Resumen ejecutivo
+## Resumen
 
 **UsielPOS** es un sistema integral para restaurantes y negocios con una o varias sucursales. Cubre operacion de piso, comandas, cocina/barra, cobro, inventarios, auditoria, cortes, facturacion, supervision movil y pagos con terminal fisica **Mercado Pago Point**.
 
