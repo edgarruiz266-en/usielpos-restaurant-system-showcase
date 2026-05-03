@@ -1,21 +1,4 @@
-# Capturas recomendadas
 
-Agrega aqui capturas limpias con datos demo.
-
-## Reglas
-
-No subir:
-
-- Tokens.
-- Licencias reales.
-- Correos o telefonos de clientes.
-- RFC reales.
-- UUID fiscales reales.
-- Datos bancarios.
-- IPs privadas si no quieres mostrarlas.
-- Nombres de negocios reales si no tienes permiso.
-
-## Lista sugerida
 
 - `desktop-mesas.png`
 - `desktop-pedidos.png`
@@ -31,7 +14,6 @@ No subir:
 - `facturacion-cfdi.png`
 - `cortes-reportes.png`
 
-## Datos demo recomendados
 
 - Restaurante Demo
 - Mesa 01
