@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Disenar un sistema de restaurante capaz de operar pedidos, cobros, inventarios, auditoria, impresion y supervision desde multiples dispositivos.
+Diseñar un sistema de restaurante capaz de operar pedidos, cobros, inventarios, auditoria, impresion y supervision desde multiples dispositivos.
 
 ## Componentes
 
